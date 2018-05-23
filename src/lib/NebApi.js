@@ -1,6 +1,6 @@
 function NebApi (){
     this.myContactAddress = "n1aWnYnbEVByu9nERtysFfjXReFEeYxJKzQ";
-    this.dappContactAddress = "n1ozNe8Dh8Y5Efh5bdCNWjzXsFJRRMXHzqN";
+    this.dappContactAddress = "n1qkZDEsv5qhSmRGrCfT79mwv36kQgNvtdP";
     // console.log(window);
     window.nebulas = window.require("nebulas");
     window.Account = window.nebulas.Account;
@@ -29,7 +29,6 @@ NebApi.prototype.set = function(from,to,content,pubTime,callback){
         listener: callback //设置listener, 处理交易返回信息
     });
 
-    // alert(321);
     // intervalQuery = setInterval(function () {
     //     funcIntervalQuery();
     // }, 5000);

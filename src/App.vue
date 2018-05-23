@@ -2,6 +2,13 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <router-view/>
+    <Row>
+      <Col>
+      <div class="footer">
+        基于星云链的表白平台 ©Aaron 2018  <b>特此鸣谢 <Icon type="thumbsup" size="30" color="#E14AEB"></Icon>&nbsp;<a href="https://nebulas.io/cn/index.html">星云链</a> 平台</b>
+      </div>
+      </Col>
+    </Row>
   </div>
 </template>
 
@@ -12,6 +19,15 @@ export default {
 </script>
 
 <style>
+.footer{
+    position: fixed;
+    width: 100%;
+    color: #FFFEFE;
+    bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
 #app {
 /*  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
